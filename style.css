@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3E5F44;
+}
+
+.calculator{
+    background-color: #000000;
+    width: 320px;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+
+.input input{
+    width: 100%;
+    height: 13vh;
+    text-align: end;
+    font-size: 40px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+.combtn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.opr{
+    background-color: orange;
+    color: rgb(0, 0, 0);
+}
+.sup{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* .ac-btn{
+    background-color: #3E5F44;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+} */
